@@ -58,7 +58,6 @@ if __name__ == "__main__":
         else:
             count += 1
             while(True):
-                clear()
                 string = input(f"{Fore.LIGHTMAGENTA_EX}(x{count}) Enter the string you want to search: ")
                 table = input(f"{Fore.LIGHTMAGENTA_EX}(x{count}) Enter the name of the table: ")
                 search(path, table, string)
