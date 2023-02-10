@@ -49,7 +49,7 @@ if __name__ == "__main__":
     clear()
     if choice == ("1" or "01"):
         path = input(f"{Fore.LIGHTMAGENTA_EX}Drag the database here: ")
-        choicet = input(f"{Fore.LIGHTMAGENTA_EX}One or multiples tables? (1: one/2: multiples):")
+        choicet = input(f"{Fore.LIGHTMAGENTA_EX}One or multiples tables? (1: one/2: multiples): ")
         count = 0
         if choicet == ("1" or "01"):
             string = input(f"{Fore.LIGHTMAGENTA_EX}Enter the string you want to search: ")
